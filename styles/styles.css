@@ -14,7 +14,7 @@ main img {
     width: 150px;
     height: auto;
     border: 1px solid rgb(0,0,0,0.2);
-    padding: auto;
+    padding: 1px;
     box-shadow: 0 0 30px;
 }
 aside {
@@ -28,10 +28,10 @@ aside {
 }
 
 aside img {
-    width: 150px;
+    width: 200px;
     height: auto;
     border: 1px solid rgb(0,0,0,0.2);
-    padding: auto;
+    padding: 1px;
     box-shadow: 0 0 30px;
 }
 h1 {
