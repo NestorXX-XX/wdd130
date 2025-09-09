@@ -13,6 +13,9 @@ main {
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid rgb(0,0,0,0.2);
+    padding: auto;
+    box-shadow: 0 0 30px;
 }
 aside {
     width: 20rem;
@@ -25,8 +28,11 @@ aside {
 }
 
 aside img {
-    width: 200px;
+    width: 150px;
     height: auto;
+    border: 1px solid rgb(0,0,0,0.2);
+    padding: auto;
+    box-shadow: 0 0 30px;
 }
 h1 {
     color: darkblue;
