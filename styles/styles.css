@@ -1,3 +1,7 @@
+:root {
+    --border: 1px solid rgb(0, 0, 0, 0.2)
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -13,14 +17,14 @@ main {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid rgb(0,0,0,0.2);
+    border: var(--border);
     padding: 1px;
     box-shadow: 0 0 30px;
 }
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0,0,0,0.2);
+    border: var(--border);
     padding: 1rem;
     background-color: #ddd;
     color:black;
@@ -30,7 +34,7 @@ aside {
 aside img {
     width: 200px;
     height: auto;
-    border: 1px solid rgb(0,0,0,0.2);
+    border: var(--border);
     padding: 1px;
     box-shadow: 0 0 30px;
 }
