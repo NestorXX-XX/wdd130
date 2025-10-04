@@ -183,3 +183,92 @@ h1 {
     width: 100%;
     height: auto;
 }
+
+.info p {
+    text-align: center;
+    margin: 0;
+}
+
+.info h2 {
+    margin-bottom: 1rem;
+}
+.form-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.form-section iframe {
+  width: 100%;
+  min-height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-section form {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 1rem 1rem;
+}
+
+.form-section form label {
+  font-weight: bold;
+  align-self: center;
+}
+
+.form-section form input,
+.form-section form textarea {
+  font-size: 1rem;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Radios stacked properly */
+.option-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Make the message label span across */
+.full-width {
+  grid-column: span 2;
+}
+
+textarea {
+  grid-column: span 2;
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Checkbox smaller and inline */
+.checkbox-group {
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.checkbox-group input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+
+button[type="submit"] {
+  grid-column: span 2;
+  background-color: #eee;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button[type="submit"]:hover {
+  background-color: #ddd;
+}
